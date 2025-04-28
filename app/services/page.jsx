@@ -44,7 +44,7 @@ const page = () => {
           </div>
         </div>
       </section>
-      <section className="bg-yellow-50 md:py-20 max-sm:py-10 ">
+      <section className="bg-yellow-50 md:py-20 max-sm:py-8 ">
         <div className="max-w-6xl mx-auto max-sm:p-4">
           <div className="md:flex items-center justify-center">
             <div className="md:w-1/2 ">
