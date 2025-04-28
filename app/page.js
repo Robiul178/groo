@@ -6,7 +6,8 @@ import GeopperTools from "@/components/page/tools/tools";
 export default function Home() {
   return (
     <div>
-      <div class="bg-custom-pattern bg-cover bg-center  w-full">
+      <div></div>
+      <div class="bg-custom-pattern bg-cover bg-center w-full">
         <div className="max-w-6xl mx-auto">
           <GopperBanner />
         </div>

@@ -12,7 +12,7 @@ const About = () => {
   return (
     <div className={`bg-[#EBE8D9] py-10 `}>
       <div className="max-w-6xl mx-auto">
-        <div className="flex justify-evenly pb-24">
+        <div className="md:flex justify-evenly pb-24">
           <div className="flex flex-col items-center justify-center">
             <div className="flex">
               <h1 className={`text-6xl font-semibold ${myFont.className}`}>
@@ -42,9 +42,11 @@ const About = () => {
           </div>
         </div>
 
-        <div className="mb-20">
+        <div className="mb-20 max-sm:px-3">
           <p className="text-slate-700">Lorem ipsum dolor sit,</p>
-          <h1 className={`text-7xl py-3 leading-[80px] ${myFont.className}`}>
+          <h1
+            className={`text-7xl max-sm:text-3xl py-3 leading-[80px] ${myFont.className}`}
+          >
             We help our startup <br /> peers get their equity <br /> right
           </h1>
           <p className="text-slate-700">
@@ -55,19 +57,17 @@ const About = () => {
           </button>
         </div>
 
-        <div>
-          <div className="flex gap-40">
-            <div className="w-1/3">
+        <div className="max-sm:px-3">
+          <div className="md:flex md:gap-40">
+            <div className="md:w-1/3">
               <img
                 // src="/assets/male-portrait.jpg"
                 src={imggg}
                 alt="man"
-                width={400}
-                height={400}
-                className="max-w-[400px] h-auto "
+                className="md:last:max-w-[400px] h-auto "
               />
             </div>
-            <div className="w-2/3">
+            <div className="md:w-2/3">
               <div className="pb-10">
                 <p className="text-slate-700">Lorem ipsum dolor sit,</p>
                 <h1 className="text-4xl py-3">Exercise before an exit</h1>

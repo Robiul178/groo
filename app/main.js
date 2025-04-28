@@ -12,9 +12,9 @@ const Main = ({ children }) => {
 
   return (
     <div>
-      {/* {!isDashboardRoute && <GropperNav />} */}
+      {!isDashboardRoute && <GropperNav />}
       <main>{children}</main>
-      {/* {!isDashboardRoute && <Footerr />} */}
+      {!isDashboardRoute && <Footerr />}
     </div>
   );
 };

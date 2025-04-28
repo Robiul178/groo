@@ -51,18 +51,6 @@ const CardSection = () => {
           gradientColors="from-yellow-100/50 to-white"
         />
       </div>
-
-      <div className="text-center py-2 mt-20">
-        <h1 className="text-4xl font-bold">Heading and tittle is here</h1>
-        <p className="py-5">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste est{" "}
-          amet veritatis
-        </p>
-        <div className="flex justify-center gap-5">
-          <Button variant="primary">Get Started</Button>
-          <Button>Get Started</Button>
-        </div>
-      </div>
     </div>
   );
 };

@@ -19,34 +19,18 @@ import Image from "next/image";
 export default function DashboardPage() {
   return (
     <div className="w-full">
-      <div className="md:hidden">
-        <Image
-          src="/examples/dashboard-light.png"
-          width={1280}
-          height={866}
-          alt="Dashboard"
-          className="block dark:hidden"
-        />
-        <Image
-          src="/examples/dashboard-dark.png"
-          width={1280}
-          height={866}
-          alt="Dashboard"
-          className="hidden dark:block"
-        />
-      </div>
       <div className="hidden flex-col md:flex border-b">
         <div className="flex h-16 items-center px-4">
           {/* <TeamSwitcher /> */}
           <MainNav />
-          <div className="ml-auto flex items-center space-x-4">
+          {/* <div className="ml-auto flex items-center space-x-4">
             <UsersNav />
-          </div>
+          </div> */}
         </div>
         <div className="flex-1 space-y-4 p-4 pt-6">
           <h2 className="text-3xl font-bold tracking-tight">Dashboard</h2>
 
-          {/* <Tabs defaultValue="overview" className="space-y-4">
+          <Tabs defaultValue="overview" className="space-y-4">
             <TabsList>
               <TabsTrigger value="overview">Overview</TabsTrigger>
               <TabsTrigger value="analytics" disabled>
@@ -185,7 +169,7 @@ export default function DashboardPage() {
                 </Card>
               </div>
             </TabsContent>
-          </Tabs> */}
+          </Tabs>
 
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
             <Card>

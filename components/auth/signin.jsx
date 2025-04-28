@@ -79,16 +79,19 @@ const SignUp = () => {
 
   return (
     <>
-      <div className="max-w-3xl mx-auto">
+      <div className="md:max-w-3xl mx-auto">
         <div className="h-screen flex flex-col justify-center items-center">
           <h1 className="text-4xl font-bold font-serif">Welcome back</h1>
-          <p className="py-2">
+          <p className="py-2 max-sm:px-3 max-sm:text-center">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
           </p>
 
           {!isForgetPassword ? (
             <Form {...form}>
-              <form onSubmit={form.handleSubmit(onSubmit)} className="w-[65%]">
+              <form
+                onSubmit={form.handleSubmit(onSubmit)}
+                className="md:w-[65%]"
+              >
                 <FormField
                   control={form.control}
                   name="email"
